@@ -28,7 +28,7 @@ jobs:
 
       - name: Run scanner
         run: |
-          python -u index.py
+          python -u meow.py
 
       - name: Upload result
         if: always()
