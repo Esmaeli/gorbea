@@ -5,7 +5,7 @@ from tqdm import tqdm
 # ---------- تنظیمات ----------
 PORTS = [80, 443]
 TIMEOUT = 1
-CONCURRENCY = 30
+CONCURRENCY = 200
 OUTPUT_FILE = "output.txt"
 RANGE_FILE = "range.txt"
 # ----------------------------
