@@ -5,9 +5,9 @@ from contextlib import suppress
 from tqdm import tqdm
 
 # ================== CONFIG ==================
-PORTS = [80, 443]
+PORTS = [8080, 3128, 8000, 8888, 8118, 443, 1080, 1081, 1085]
 TIMEOUT = 2
-CONCURRENCY = 50
+CONCURRENCY = 400
 
 RANGE_FILE = "range.txt"
 OUTPUT_FILE = "output.txt"
